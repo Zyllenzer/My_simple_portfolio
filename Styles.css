@@ -1,0 +1,98 @@
+.test {
+  border: solid black 2px;
+}
+
+.nv_txt_style {
+  background-color: black;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid black 2px;
+  padding-right: 5px;
+}
+.nv_logo_style {
+  color: white;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+
+  border: solid black 2px;
+}
+
+.cont:hover .nv_txt_style {
+  color: black;
+  background-color: white;
+  border-color: white;
+  transition: ease-in-out 0.5s;
+}
+.cont:hover .nv_logo_style {
+  color: black;
+  background-color: white;
+  border-color: white;
+
+  transition: ease-in-out 0.5s;
+  padding-left: 10px;
+}
+
+.email_head {
+  color: rgb(245, 238, 238);
+  width: 400px;
+}
+.email_head:hover {
+  background-color: rgb(242, 242, 242);
+  color: rgb(11, 11, 11);
+  padding: 5px;
+  border: solid 2px black;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+.flex_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bck-1 {
+  background: url("./Pictures/background\(3\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1-main {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.h1-subheading {
+  color: white;
+  font-family: "Merriweather", serif;
+}
+.h1-otherheading {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+.nav-font {
+  font-family: "Alegreya", serif;
+}
+
+.ft-effect {
+  visibility: hidden;
+  height: 0px;
+}
+.hover_toolset:hover .ft-effect {
+  visibility: visible;
+  background-color: white;
+  border: solid white 2px;
+  height: 300px;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+.bck-3 {
+  background: url("./Pictures/background\(6\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
